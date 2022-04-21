@@ -210,6 +210,15 @@ header{
     height: 105px;
     margin-bottom: 10px;
 }
+.container-3{
+    width: 25px;
+    margin: 29px 20px 102px 115px;
+}
+.pict-card-img-top{
+    width: 5px;
+    height: 5px;
+    margin-bottom: 10px;
+}
 .socmed{
     display: flex;
     flex-direction: row;
