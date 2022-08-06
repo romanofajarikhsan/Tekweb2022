@@ -37,6 +37,9 @@ header ul li a:hover {
 	color: #F84744;
     color: #c6c6c6;
 }
+.navbar a{
+  color: rgb(0, 0, 0);
+}
   .cover .social a {
     color: rgb(0, 0, 0);
   }
