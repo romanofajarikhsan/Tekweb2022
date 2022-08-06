@@ -2,4 +2,15 @@
   "title": "Romano",
   "description":
     "Wanna Know More About Me?."
+   "social": {
+      "ig": {
+        "url": "https://instagram.com/fareedsurya"
+      },
+      "fb": {
+        "url": "https://web.facebook.com/fareed.frenologica/"
+      },
+      "yt": {
+        "url": "https://www.youtube.com/channel/UC8GBH6hewlRM1q252mSMyXg"
+      }
+    }
 }
