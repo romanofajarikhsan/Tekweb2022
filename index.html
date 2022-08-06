@@ -31,17 +31,17 @@
             <div class="col-6 text-black">
               <h1>{{header.title}}</h1>
               <p>{{header.description}}</p>
-              <div class="social">
+              <div class="navbar">
                 <li><a href="portofolio.html">About</a></li>
                 <li><a href="porto.html">Portofolio</a></li>     
                 <li><a href="artikel2.html">Article</a></li>
               </div>
+              <div class="social">
+                <a v-bind:href="header.social == undefined ? '':header.social.ig.url"><i class="bi-instagram"></i> {{header.social == undefined ? '':header.social.ig.title}}</a>
+                <a v-bind:href="header.social == undefined ? '':header.social.fb.url"><i class="bi-facebook"></i> {{header.social == undefined ? '':header.social.fb.title}}</a>
+                <a v-bind:href="header.social == undefined ? '':header.social.yt.url"><i class="bi-youtube"></i> {{header.social == undefined ? '':header.social.yt.title}}</a>
+              </div>
             </div>
-          </div>
-          <div class="social">
-            <a v-bind:href="header.social == undefined ? '':header.social.ig.url"><i class="bi-instagram"></i> {{header.social == undefined ? '':header.social.ig.title}}</a>
-            <a v-bind:href="header.social == undefined ? '':header.social.fb.url"><i class="bi-github"></i> {{header.social == undefined ? '':header.social.fb.title}}</a>
-            <a v-bind:href="header.social == undefined ? '':header.social.yt.url"><i class="bi-youtube"></i> {{header.social == undefined ? '':header.social.yt.title}}</a>
           </div>
         </div>   
       </div>
@@ -70,6 +70,5 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
     <script src="main.js"></script>
-    
   </body>
 </html>
