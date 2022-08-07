@@ -69,3 +69,23 @@ DELETE: /user/[id]
 respon:
 true    // jika sukses
 false   // jika salah
+
+
+Desain Database
+ini adalah desain database yang telah saya buat:
+
+mermaid
+classDiagram
+    class User{
+        # id: int
+        + nama: string
+        + motto: 
+        + url_ig: string
+        + url_fb: string
+        + url_yt: string
+        + getAllUser()
+        + getUserById()
+        + updateUser()
+        + createUser()
+        + deleteUser()
+    },
