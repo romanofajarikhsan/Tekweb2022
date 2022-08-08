@@ -3,6 +3,7 @@ a.Menampilkan data user
 
 GET: /users
 respon:
+
 [
     {
         "id": "",
@@ -19,6 +20,7 @@ b. Menampilkan user dengan ID
 
 GET: /users/[id]
 repon:
+
 {
         "nama": "",
         "motto": "",
@@ -32,6 +34,7 @@ c. Menambahkan data user Secara oomatis
 
 POST: /user
 data:
+
 {
         "nama": "",
         "motto": "",
@@ -49,6 +52,7 @@ d. Mengedit data user dengan ID
 
 PUT: /user/[id]
 data:
+
 {
         "nama": "",
         "motto": "",
@@ -76,6 +80,7 @@ ini adalah desain database yang telah saya buat:
 
 mermaid
 classDiagram
+
     class User{
         # id: int
         + nama: string
